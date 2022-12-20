@@ -1,0 +1,41 @@
+
+.center{
+    
+    margin-right: auto;
+    margin-left: auto;
+    margin: 100px auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(170px,1fr));
+    grid-gap:25px;
+   
+}
+.all_articles{
+  
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+
+}
+.card:hover{
+    transform: scale(1.1);}
+.card{
+     box-shadow: 0 0 5px rgba(0,0,0,0.3);
+     border-radius:6px;
+     overflow: hidden;
+     transition: 0.5s;
+     height: 200px;
+    width: 100%;
+    object-fit: cover;
+
+    margin-top: 0px;
+    margin-bottom:10px;
+    height: fit-content;
+    text-align: left;
+    
+   
+
+    
+    
+}
+

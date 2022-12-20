@@ -73,6 +73,3 @@ integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmV
 
     </div>
 </div>
-<?php 
-include_once('footer.php');
-?>

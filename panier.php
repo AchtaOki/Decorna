@@ -27,9 +27,9 @@ if(isset($_GET['del'])){
     </head>
 <body class="panier"style="background:white;">
     <a href="index.php" class="link">Boutique</a>
-    <section>
-<table>
-<tr>
+    <section class="p-4 w-[50%] h-full">
+<table class="flex flex-row justify-between">
+<tr >
     <th></th>
     <th>Nom</th>
     <th>Prix</th>
@@ -79,9 +79,7 @@ foreach($products as $product):
 
     </section>
 
-    <?php 
-include_once('footer.php');
-?>
+ 
     
     
 </body>

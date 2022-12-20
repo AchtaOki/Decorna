@@ -34,6 +34,6 @@ header("Location:index.php");
 }
 
 ?>
-<?php 
+  <!--?php 
 include_once('footer.php');
-?>
+?-->

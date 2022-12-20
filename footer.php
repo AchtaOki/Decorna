@@ -13,7 +13,10 @@
 <link href="lib/slick/slick.css" rel="stylesheet">
 <link href="lib/slick/slick-theme.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
+<link rel="stylesheet" href="css2.css">
+
 <style>
+    
 
 .footer {
   
@@ -201,7 +204,7 @@
     </head>
     <body>
    
-    <div class="footer">
+     <div class="footer">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-3 col-md-6">
@@ -252,17 +255,13 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="footer-bottom">
-            <div class="container">
-            
-                </div>
-            </div>
-        </div>
+        </div> 
+
+    
+        
         <!-- Footer Bottom End -->       
         
         <!-- Back to Top -->
-        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
         
 
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -272,6 +271,8 @@
         
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
+        <script src="https://cdn.tailwindcss.com"></script>
+
 
 </body>
 </html>

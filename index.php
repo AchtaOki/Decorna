@@ -28,8 +28,8 @@ integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmV
     <body>
        <!-- afficher le nombre de produit dans le panier-->
 <a href="panier.php" class="link">Panier<span><?=array_sum($_SESSION['panier'])?></span></a>
-<h1 style=" text-align:center; color:#37a6ff " >Bienvenue dans la boutique en ligne de Decorna</h1>
-<h3 style="text-align:left">Nos produits</h3>
+<h1 style=" text-align:center; color:#37a6ff; margin-bottom:16px;" >Bienvenue dans la boutique en ligne de Decorna</h1><br>
+<h3 style="text-align:left; padding:16px;margin-bottom:-70px;">Nos produits</h3>
 <section class="liste_produit">
 
 <?php 
@@ -47,7 +47,7 @@ while($row=mysqli_fetch_assoc($req)){
 </div>
 <div class="content">
 <h4 class="name"><?=$row['nom']?></h4>
-<h2 class="prix"><?=$row['prix']?></h2>
+<h2 class="prix"><?=$row['prix']?> €</h2>
 <a href="ajouter_panier.php?id=<?=$row['id']?>" class="id_produit">Ajouter  au Panier</a>
 
 </div>
@@ -62,9 +62,9 @@ while($row=mysqli_fetch_assoc($req)){
     include_once('articles.php');
     ?>
 </section>
-<?php
+  <!--?php 
 include_once('footer.php');
-?>
+?-->
         
     </body>
 </html>
